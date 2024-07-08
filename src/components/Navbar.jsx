@@ -18,8 +18,8 @@ export default function Navbar() {
   ];
 
   return (
-    <section className="px-4 md:px-20 my-2.5 drop-shadow-md">
-      <nav className="navbar flex justify-between mx-auto items-center">
+    <section className="sticky top-0 bg-white z-50 px-4 md:px-20">
+      <nav className="navbar flex justify-between items-center py-2.5">
         <div className="navbar-logo">
           <a href="/" className="navbar-link">
             <img src={LogoBrand} alt="Logo Brand" className="img-brand max-w-full h-auto" />
